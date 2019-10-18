@@ -70,7 +70,7 @@
         </header>
         <main>
             <div class="container">
-                <p class="lead">Текущее время: <span id="actualCurrentTime"></span></p>
+                <p class="lead">Текущее время: <strong id="actualCurrentTime"></strong></p>
                 <asp:ContentPlaceHolder ID="MainContent" runat="server">
                 </asp:ContentPlaceHolder>
             </div>

@@ -6,14 +6,15 @@
 
 <div class="jumbotron">
     <h1>Кэширование в течение 7 секунд</h1>
+    <p><em>Для демонстрации эта страница автоматически обновляется каждую секунду</em></p>
     <hr />
     <p class="lead">
-        Время кэширования страницы: 
-        <asp:Label ID="LabelCurrentTime" runat="server"></asp:Label>
+        Время на момент кэширования страницы: 
+        <strong><asp:Label ID="LabelCurrentTime" runat="server"></asp:Label></strong>
     </p>
     <p class="lead">
-        Время загрузки страницы: 
-        <asp:Substitution runat="server" MethodName="GetActualCurrentTime" />
+        Время на момент загрузки страницы: 
+        <strong><asp:Substitution runat="server" MethodName="GetActualCurrentTime" /></strong>
     </p>
 </div>
 
